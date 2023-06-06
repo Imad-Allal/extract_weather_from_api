@@ -3,6 +3,8 @@ import json
 
 import pandas as pd
 
+import folium
+
 
 def get_all_filenames():
     # this function should return a list of filenames
@@ -41,7 +43,9 @@ def merge_all_files_in_pandas_df(files):
 
 def drop_duplicates(df_):
     # drop duplicated rows using a function of pandas.DataFrame
-    return df_.drop_duplicates(subset = ["city"])
+    return df_.drop_duplicates()
+
+
 
 def main():
     files = get_all_filenames()
