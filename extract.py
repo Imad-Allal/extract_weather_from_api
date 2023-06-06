@@ -36,7 +36,7 @@ def get_current_weather(lat, lon):
     response = requests.get(url)
     data = json.loads(response.text)
 
-    return data['current_weather']['temperature']
+    return data
 
 def get_weather_all_cities(cities):
     data = dict()
