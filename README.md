@@ -1,4 +1,4 @@
-# Extracting The Weather Of Different Cities From APIs
+# Weather Extract From Different APIs
 
 ## About The Project
 The main idea of this project is to extract weather information for different cities in Algeria every hour. The project utilizes an ETL (Extract, Transform, Load) process to gather weather data from reliable sources. The ETL process is implemented in a Python script named etl.py. The script imports additional modules such as extract.py, transform.py, and display_map.py to perform specific tasks.
